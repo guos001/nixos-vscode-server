@@ -21,7 +21,7 @@
   enableFHS ? false,
   nodejsPackage ? null,
   extraRuntimeDependencies ? [ ],
-  installPath ? "$HOME/.vscode-server",
+  installPath ? "$HOME/.cursor-server",
   postPatch ? "",
 }: let
   inherit (lib) makeBinPath makeLibraryPath optionalString;
